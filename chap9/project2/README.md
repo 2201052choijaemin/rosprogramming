@@ -12,3 +12,32 @@
 <img width="393" height="151" alt="image" src="https://github.com/user-attachments/assets/794629e7-25e5-49f2-b86d-66bbd0083265" />
 
 자동으로 생성되는 파일과 디렉터리를 출력하고 각각 설명하시오.
+
+ros2_ws/
+├── build/
+├── install/
+├── log/
+└── src/
+    └── first_pkg/
+        ├── CMakeLists.txt
+        ├── include/
+        ├── package.xml
+        └── src/
+
+build/: 빌드 과정에서 생성되는 파일 저장
+
+install/: 빌드된 패키지 설치 파일 저장
+
+log/: 빌드 과정의 로그 저장
+
+src/: ROS 2 패키지가 저장되는 디렉터리
+
+first_pkg/: 생성한 패키지 디렉터리
+
+CMakeLists.txt: 패키지 빌드 설정 파일
+
+package.xml: 패키지 정보 및 의존성 관리 파일
+
+include/: 헤더 파일 저장 디렉터리
+
+src/: 소스 코드 저장 디렉터리
