@@ -1,6 +1,7 @@
 1.ROS1과 ROS2의 통신방식의 관점에서 차이를 설명하라.
 
 -ROS1은 주로 ROS Master를 이용하여 노드들이 서로 연결되고, TCPROS/UDPROS를 통해 데이터를 주고받는다.
+
 -ROS2는 ROS Master에 의존하지 않고, **DDS(Data Distribution Service)**를 이용하여 노드들이 서로 통신한다.
 
 2.ROS1의 통신 미들웨어인 TCPROS와 ROS2의 통신 미들웨어인 DDS의 차이를 설명하라.
